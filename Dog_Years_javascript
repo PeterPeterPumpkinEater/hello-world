@@ -1,0 +1,22 @@
+//a variable named myAge, and set it equal to your age
+let myAge = 22;
+//variable named earlyYears and save the value 2
+let earlyYears = 2;
+/* Use the multiplication assignment operator to multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears.*/
+earlyYears *= 10.5;
+/* take the myAge variable, and subtract 2 from it.
+Set the result equal to a variable called laterYears. */
+let laterYears = myAge - 2;
+// calculate the number of dog years accounted for by your later years. 
+laterYears *= 4;
+// console.log(laterYears);
+// console.log(earlyYears);
+// Add earlyYears and laterYears together, and store that in a variable named myAgeInDogYears.
+let myAgeInDogYears = earlyYears + laterYears
+// Write your name as a string, call its built-in method .toLowerCase(), and store the result in a variable called myName
+myName = 'Pete Szekely'.toLowerCase();
+// console.log(myName);
+/* displays your name and age in dog years. Use string interpolation to display the value in the following sentence:
+My name is NAME. I am HUMAN AGE years old in human years which is DOG AGE years old in dog years.
+Replace NAME with myName, HUMAN AGE with myAge, and DOG AGE with myAgeInDogYears */
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
